@@ -45,9 +45,9 @@ async function RightSidebar() {
                 </div> */}
             </div>
 
-            {/* <div className='flex flex-1 flex-col justify-start'>
+            <div className='flex flex-1 flex-col justify-start'>
                 <h3 className='text-heading4-medium text-light-1'>Similar Minds</h3>
-                <div className='mt-7 flex w-[350px] flex-col gap-10'>
+                {/* <div className='mt-7 flex w-[350px] flex-col gap-10'>
                     {similarMinds.users.length > 0 ? (
                         <>
                             {similarMinds.users.map((person) => (
@@ -64,8 +64,8 @@ async function RightSidebar() {
                     ) : (
                         <p className='!text-base-regular text-light-3'>No users yet</p>
                     )}
-                </div>
-            </div> */}
+                </div> */}
+            </div>
         </section>
     );
 }
