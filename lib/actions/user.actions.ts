@@ -30,6 +30,7 @@ interface Params {
   path: string;
 }
 
+// 888888888888888888888888888888888888888888888888888888
 export async function updateUser({
   userId,
   bio,
@@ -60,6 +61,8 @@ export async function updateUser({
     throw new Error(`Failed to create/update user: ${error.message}`);
   }
 }
+
+// ____________________________________________________________________
 
 export async function fetchUserPosts(userId: string) {
   try {
