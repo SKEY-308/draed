@@ -12,7 +12,7 @@ import Topbar from "@/components/shared/Topbar";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Dreads',
+  title: 'Draeds',
   description: '14 Meta Dreads App',
 }
 
