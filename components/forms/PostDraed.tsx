@@ -47,7 +47,9 @@ const PostDraed = ({ userId }: Props) => {
             path: pathname,
         });
 
+
         router.push("/");
+
     };
 
 
