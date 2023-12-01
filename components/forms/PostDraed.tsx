@@ -34,14 +34,14 @@ const PostDraed = ({ userId }: Props) => {
     const form = useForm<z.infer<typeof ThreadValidation>>({
         resolver: zodResolver(ThreadValidation),
         defaultValues: {
-            thread: "",
+            draed: "",
             accountId: userId,
         },
     });
 
     const onSubmit = async (values: z.infer<typeof ThreadValidation>) => {
         await createThread({
-            text: values.thread,
+            text: values.draed,
             author: userId,
             communityId: organization ? organization.id : null,
             path: pathname,
@@ -59,7 +59,7 @@ const PostDraed = ({ userId }: Props) => {
             >
                 <FormField
                     control={form.control}
-                    name='thread'
+                    name='draed'
                     render={({ field }) => (
                         <FormItem className='flex w-full flex-col gap-3'>
                             <FormLabel className='text-base-semibold text-light-2'>
