@@ -23,7 +23,7 @@ async function Home({
     30
   );
 
-  console.log(result.posts)
+  console.log(result)
 
   return (
     <>
