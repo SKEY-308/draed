@@ -77,7 +77,7 @@ function Comment({ threadId, currentUserImg, currentUserId }: Props) {
                 />
 
                 <Button type='submit' className='comment-form_btn'>
-                    Reply
+                    Reply...
                 </Button>
             </form>
         </Form>
